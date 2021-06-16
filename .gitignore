@@ -3,8 +3,11 @@ conf.d/*
 log/*
 
 mysql/data/*
+!mysql/data/.gitkeep
 mysql/conf/*
+!mysql/conf/.gitkeep
 mysql/logs/*
+!mysql/logs/.gitkeep
 
 www/*
 !www/index.php

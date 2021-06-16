@@ -8,5 +8,6 @@ mysq/logs/*
 
 www/*
 !www/index.php
+php/log/*
 
 .DS_Store

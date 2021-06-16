@@ -18,15 +18,21 @@ services:
         networks:
            - net-app
     php:
-        image: php:7.4-fpm
+        # docker-php-ext-install pdo pdo_mysql 扩展安装
+        image: php:7.3-fpm
         container_name: "compose-php"
         restart: always
+        cap_add:
+            - SYS_PTRACE        
         ports:
             - "9000:9000"
         environment:
             - TZ=Asia/Shanghai
         volumes:
             - "./www:/usr/share/nginx/html"
+            - "./php/conf:/usr/local/etc"
+            # - "./php/log/:/proc/self/fd" log 暂未配置
+        # command: /bin/bash -c "mkdir -p /usr/local/var/log/php-fpm && touch /usr/local/var/log/php-fpm/php-fpm.log && touch /usr/local/var/log/php-fpm/fpm-php.www.log"
         networks:
            - net-app
     mysql:

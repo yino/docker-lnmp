@@ -1,0 +1,51 @@
+version: "3"
+services:
+    nginx:
+        image: nginx:latest
+        container_name: "compose-nginx"
+        restart: always
+        ports:
+            - "80:80"
+            - "443:443"
+        environment:
+           - TZ=Asia/Shanghai
+        depends_on:
+           - "php"
+        volumes:
+           - "./conf.d:/etc/nginx/conf.d"
+           - "./www:/usr/share/nginx/html"
+           - "./log:/var/log/nginx"
+        networks:
+           - net-app
+    php:
+        image: php:7.4-fpm
+        container_name: "compose-php"
+        restart: always
+        ports:
+            - "9000:9000"
+        environment:
+            - TZ=Asia/Shanghai
+        volumes:
+            - "./www:/usr/share/nginx/html"
+        networks:
+           - net-app
+    mysql:
+        image: mysql:5.7
+        container_name: "compose-mysql"
+        restart: always
+        command: --default-authentication-plugin=mysql_native_password
+        ports:
+            - "3306:3306"
+        volumes:
+            - "./mysql/data:/var/lib/mysql"
+            - "./mysql/logs:/var/log/mysql"
+            - "./mysql/conf:/etc/mysql/conf.d"
+        environment:
+            - TZ=Asia/Shanghai
+            - MYSQL_ROOT_PASSWORD=root
+            - MYSQL_USER=latelee
+            - MYSQL_PASSWORD=123456
+        networks:
+            - net-app
+networks:
+    net-app:  

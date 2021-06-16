@@ -1,0 +1,10 @@
+conf.d/*
+!conf.d/default.conf
+log/*
+
+mysql/data/*
+mysql/conf/*
+mysq/logs/*
+
+www/*
+!www/index.php

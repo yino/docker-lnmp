@@ -4,7 +4,7 @@ log/*
 
 mysql/data/*
 mysql/conf/*
-mysq/logs/*
+mysql/logs/*
 
 www/*
 !www/index.php

@@ -1,54 +1,22 @@
-1:C 28 Jun 2021 13:06:28.289 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
-1:C 28 Jun 2021 13:06:28.292 # Redis version=6.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
-1:C 28 Jun 2021 13:06:28.294 # Configuration loaded
-1:M 28 Jun 2021 13:06:28.300 * monotonic clock: POSIX clock_gettime
-1:M 28 Jun 2021 13:06:28.314 * Running mode=standalone, port=6379.
-1:M 28 Jun 2021 13:06:28.316 # Server initialized
-1:M 28 Jun 2021 13:06:28.329 * Ready to accept connections
-1:signal-handler (1624885618) Received SIGTERM scheduling shutdown...
-1:M 28 Jun 2021 13:06:58.765 # User requested shutdown...
-1:M 28 Jun 2021 13:06:58.767 * Calling fsync() on the AOF file.
-1:M 28 Jun 2021 13:06:58.770 * Saving the final RDB snapshot before exiting.
-1:M 28 Jun 2021 13:06:58.776 * DB saved on disk
-1:M 28 Jun 2021 13:06:58.779 * Removing the pid file.
-1:M 28 Jun 2021 13:06:58.781 # Redis is now ready to exit, bye bye...
-1:C 28 Jun 2021 13:07:07.510 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
-1:C 28 Jun 2021 13:07:07.512 # Redis version=6.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
-1:C 28 Jun 2021 13:07:07.514 # Configuration loaded
-1:M 28 Jun 2021 13:07:07.521 * monotonic clock: POSIX clock_gettime
-1:M 28 Jun 2021 13:07:07.534 * Running mode=standalone, port=6379.
-1:M 28 Jun 2021 13:07:07.536 # Server initialized
-1:M 28 Jun 2021 13:07:07.549 * Ready to accept connections
-1:signal-handler (1624885652) Received SIGTERM scheduling shutdown...
-1:M 28 Jun 2021 13:07:32.264 # User requested shutdown...
-1:M 28 Jun 2021 13:07:32.267 * Calling fsync() on the AOF file.
-1:M 28 Jun 2021 13:07:32.269 * Saving the final RDB snapshot before exiting.
-1:M 28 Jun 2021 13:07:32.278 * DB saved on disk
-1:M 28 Jun 2021 13:07:32.280 * Removing the pid file.
-1:M 28 Jun 2021 13:07:32.282 # Redis is now ready to exit, bye bye...
-1:C 28 Jun 2021 13:08:08.846 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
-1:C 28 Jun 2021 13:08:08.849 # Redis version=6.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
-1:C 28 Jun 2021 13:08:08.851 # Configuration loaded
-1:M 28 Jun 2021 13:08:08.858 * monotonic clock: POSIX clock_gettime
-1:M 28 Jun 2021 13:08:08.871 * Running mode=standalone, port=6379.
-1:M 28 Jun 2021 13:08:08.873 # Server initialized
-1:M 28 Jun 2021 13:08:08.885 * Ready to accept connections
-1:M 28 Jun 2021 13:08:29.003 - Accepted 172.20.0.1:64998
-1:M 28 Jun 2021 13:08:44.575 - Accepted 172.20.0.1:65002
-1:signal-handler (1624885811) Received SIGTERM scheduling shutdown...
-1:M 28 Jun 2021 13:10:11.739 # User requested shutdown...
-1:M 28 Jun 2021 13:10:11.741 * Calling fsync() on the AOF file.
-1:M 28 Jun 2021 13:10:11.743 * Saving the final RDB snapshot before exiting.
-1:M 28 Jun 2021 13:10:11.750 * DB saved on disk
-1:M 28 Jun 2021 13:10:11.752 * Removing the pid file.
-1:M 28 Jun 2021 13:10:11.754 # Redis is now ready to exit, bye bye...
-1:C 28 Jun 2021 13:10:20.507 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
-1:C 28 Jun 2021 13:10:20.510 # Redis version=6.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
-1:C 28 Jun 2021 13:10:20.512 # Configuration loaded
-1:M 28 Jun 2021 13:10:20.518 * monotonic clock: POSIX clock_gettime
-1:M 28 Jun 2021 13:10:20.531 * Running mode=standalone, port=6379.
-1:M 28 Jun 2021 13:10:20.533 # Server initialized
-1:M 28 Jun 2021 13:10:20.545 * Ready to accept connections
-1:M 28 Jun 2021 13:10:27.720 - Accepted 172.20.0.1:65006
-1:M 28 Jun 2021 13:10:30.086 - Accepted 172.20.0.1:65010
-1:M 28 Jun 2021 13:10:30.103 - Accepted 172.20.0.1:65014
+1:C 28 Jun 2021 14:55:04.498 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 28 Jun 2021 14:55:04.502 # Redis version=6.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 28 Jun 2021 14:55:04.504 # Configuration loaded
+1:M 28 Jun 2021 14:55:04.510 * monotonic clock: POSIX clock_gettime
+1:M 28 Jun 2021 14:55:04.526 * Running mode=standalone, port=6379.
+1:M 28 Jun 2021 14:55:04.528 # Server initialized
+1:M 28 Jun 2021 14:55:04.542 * Ready to accept connections
+1:signal-handler (1624893677) Received SIGTERM scheduling shutdown...
+1:M 28 Jun 2021 15:21:17.641 # User requested shutdown...
+1:M 28 Jun 2021 15:21:17.643 * Calling fsync() on the AOF file.
+1:M 28 Jun 2021 15:21:17.645 * Saving the final RDB snapshot before exiting.
+1:M 28 Jun 2021 15:21:17.653 * DB saved on disk
+1:M 28 Jun 2021 15:21:17.655 * Removing the pid file.
+1:M 28 Jun 2021 15:21:17.659 # Redis is now ready to exit, bye bye...
+1:C 28 Jun 2021 15:21:21.631 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 28 Jun 2021 15:21:21.634 # Redis version=6.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 28 Jun 2021 15:21:21.636 # Configuration loaded
+1:M 28 Jun 2021 15:21:21.641 * monotonic clock: POSIX clock_gettime
+1:M 28 Jun 2021 15:21:21.655 * Running mode=standalone, port=6379.
+1:M 28 Jun 2021 15:21:21.656 # Server initialized
+1:M 28 Jun 2021 15:21:21.669 * Ready to accept connections
+1:M 28 Jun 2021 15:21:24.309 - Accepted 172.20.0.1:65218

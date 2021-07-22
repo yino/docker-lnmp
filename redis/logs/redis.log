@@ -20,3 +20,688 @@
 1:M 28 Jun 2021 15:21:21.656 # Server initialized
 1:M 28 Jun 2021 15:21:21.669 * Ready to accept connections
 1:M 28 Jun 2021 15:21:24.309 - Accepted 172.20.0.1:65218
+1:M 28 Jun 2021 15:22:35.604 - Accepted 172.20.0.1:65234
+1:M 28 Jun 2021 15:22:35.621 - Accepted 172.20.0.1:65238
+1:signal-handler (1624893895) Received SIGTERM scheduling shutdown...
+1:M 28 Jun 2021 15:24:55.275 # User requested shutdown...
+1:M 28 Jun 2021 15:24:55.279 * Calling fsync() on the AOF file.
+1:M 28 Jun 2021 15:24:55.281 * Saving the final RDB snapshot before exiting.
+1:M 28 Jun 2021 15:24:55.290 * DB saved on disk
+1:M 28 Jun 2021 15:24:55.293 * Removing the pid file.
+1:M 28 Jun 2021 15:24:55.296 # Redis is now ready to exit, bye bye...
+1:C 28 Jun 2021 15:24:59.124 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 28 Jun 2021 15:24:59.127 # Redis version=6.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 28 Jun 2021 15:24:59.129 # Configuration loaded
+1:M 28 Jun 2021 15:24:59.134 * monotonic clock: POSIX clock_gettime
+1:M 28 Jun 2021 15:24:59.148 * Running mode=standalone, port=6379.
+1:M 28 Jun 2021 15:24:59.150 # Server initialized
+1:M 28 Jun 2021 15:24:59.162 * Ready to accept connections
+1:M 28 Jun 2021 15:24:59.310 - Accepted 172.20.0.1:65360
+1:M 28 Jun 2021 15:24:59.315 - Accepted 172.20.0.1:65364
+1:M 28 Jun 2021 15:24:59.317 - Accepted 172.20.0.1:65368
+1:signal-handler (1624894010) Received SIGTERM scheduling shutdown...
+1:M 28 Jun 2021 15:26:50.598 # User requested shutdown...
+1:M 28 Jun 2021 15:26:50.601 * Calling fsync() on the AOF file.
+1:M 28 Jun 2021 15:26:50.603 * Saving the final RDB snapshot before exiting.
+1:M 28 Jun 2021 15:26:50.610 * DB saved on disk
+1:M 28 Jun 2021 15:26:50.613 * Removing the pid file.
+1:M 28 Jun 2021 15:26:50.615 # Redis is now ready to exit, bye bye...
+13:C 28 Jun 2021 15:26:54.340 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14:C 28 Jun 2021 15:26:58.808 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14:C 28 Jun 2021 15:27:02.633 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14:C 28 Jun 2021 15:27:07.605 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+19:C 28 Jun 2021 15:27:11.483 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14:C 28 Jun 2021 15:27:16.164 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+13:C 28 Jun 2021 15:27:48.503 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14:C 28 Jun 2021 15:28:59.628 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+15:C 28 Jun 2021 15:29:03.517 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+13:C 28 Jun 2021 15:29:07.459 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14:C 28 Jun 2021 15:29:11.606 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+15:C 28 Jun 2021 15:29:15.725 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14:C 28 Jun 2021 15:29:28.837 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+13:C 28 Jun 2021 15:29:37.983 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+15:C 28 Jun 2021 15:29:53.862 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14:C 28 Jun 2021 15:30:53.217 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14:C 28 Jun 2021 15:30:58.347 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+13:C 28 Jun 2021 15:31:02.058 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+13:C 28 Jun 2021 15:31:06.570 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+15:C 28 Jun 2021 15:31:10.701 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+15:C 28 Jun 2021 15:31:21.304 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+14:C 28 Jun 2021 15:31:31.595 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+13:C 28 Jun 2021 15:31:47.929 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 28 Jun 2021 15:32:18.798 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 28 Jun 2021 15:32:18.802 # Redis version=6.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 28 Jun 2021 15:32:18.804 # Configuration loaded
+1:M 28 Jun 2021 15:32:18.809 * monotonic clock: POSIX clock_gettime
+1:M 28 Jun 2021 15:32:18.822 * Running mode=standalone, port=6379.
+1:M 28 Jun 2021 15:32:18.825 # Server initialized
+1:M 28 Jun 2021 15:32:18.837 * Ready to accept connections
+1:M 28 Jun 2021 15:32:48.514 - Accepted 172.20.0.1:65486
+1:M 28 Jun 2021 15:33:20.015 - Client closed connection
+1:C 29 Jun 2021 15:37:37.790 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 29 Jun 2021 15:37:37.794 # Redis version=6.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 29 Jun 2021 15:37:37.796 # Configuration loaded
+1:M 29 Jun 2021 15:37:37.803 * monotonic clock: POSIX clock_gettime
+1:M 29 Jun 2021 15:37:37.819 * Running mode=standalone, port=6379.
+1:M 29 Jun 2021 15:37:37.821 # Server initialized
+1:M 29 Jun 2021 15:37:37.837 * Ready to accept connections
+1:M 29 Jun 2021 15:41:38.264 - Accepted 172.20.0.1:55894
+1:M 29 Jun 2021 15:41:38.269 - Accepted 172.20.0.1:55896
+1:M 29 Jun 2021 15:41:38.271 - Accepted 172.20.0.1:55892
+1:M 29 Jun 2021 15:41:38.274 - Accepted 172.20.0.1:55902
+1:M 29 Jun 2021 15:41:38.276 - Accepted 172.20.0.1:55904
+1:M 29 Jun 2021 15:41:38.281 - Client closed connection
+1:M 29 Jun 2021 15:41:38.286 - Client closed connection
+1:M 29 Jun 2021 15:41:38.288 - Client closed connection
+1:M 29 Jun 2021 15:41:38.290 - Client closed connection
+1:M 29 Jun 2021 15:41:38.291 - Client closed connection
+1:M 29 Jun 2021 15:43:33.811 - Accepted 172.20.0.1:56086
+1:M 29 Jun 2021 15:43:33.813 - Accepted 172.20.0.1:56088
+1:M 29 Jun 2021 15:43:33.815 - Accepted 172.20.0.1:56090
+1:M 29 Jun 2021 15:43:33.817 - Accepted 172.20.0.1:56096
+1:M 29 Jun 2021 15:43:33.820 - Accepted 172.20.0.1:56098
+1:M 29 Jun 2021 15:43:33.827 - Client closed connection
+1:M 29 Jun 2021 15:48:33.834 - Client closed connection
+1:M 29 Jun 2021 15:48:33.838 - Client closed connection
+1:M 29 Jun 2021 15:48:33.840 - Client closed connection
+1:M 29 Jun 2021 15:48:33.842 - Client closed connection
+1:M 29 Jun 2021 15:48:33.845 - Accepted 172.20.0.1:56552
+1:M 29 Jun 2021 15:48:33.847 - Accepted 172.20.0.1:56554
+1:M 29 Jun 2021 15:48:33.849 - Accepted 172.20.0.1:56556
+1:M 29 Jun 2021 15:48:33.851 - Accepted 172.20.0.1:56558
+1:M 29 Jun 2021 15:53:34.673 - Client closed connection
+1:M 29 Jun 2021 15:53:34.676 - Client closed connection
+1:M 29 Jun 2021 15:53:34.681 - Client closed connection
+1:M 29 Jun 2021 15:53:34.684 - Client closed connection
+1:M 29 Jun 2021 15:53:34.687 - Accepted 172.20.0.1:56990
+1:M 29 Jun 2021 15:53:34.690 - Accepted 172.20.0.1:56992
+1:M 29 Jun 2021 15:53:34.692 - Accepted 172.20.0.1:56994
+1:M 29 Jun 2021 15:53:34.695 - Accepted 172.20.0.1:56996
+1:M 29 Jun 2021 15:53:53.398 - Client closed connection
+1:M 29 Jun 2021 15:53:53.404 - Client closed connection
+1:M 29 Jun 2021 15:53:53.407 - Client closed connection
+1:M 29 Jun 2021 15:53:53.413 - Client closed connection
+1:M 29 Jun 2021 15:54:10.765 - Accepted 172.20.0.1:57018
+1:M 29 Jun 2021 15:54:10.770 - Accepted 172.20.0.1:57024
+1:M 29 Jun 2021 15:54:10.773 - Accepted 172.20.0.1:57036
+1:M 29 Jun 2021 15:54:10.775 - Accepted 172.20.0.1:57038
+1:M 29 Jun 2021 15:54:10.777 - Accepted 172.20.0.1:57042
+1:M 29 Jun 2021 15:54:10.783 - Client closed connection
+1:M 29 Jun 2021 15:54:36.389 - Client closed connection
+1:M 29 Jun 2021 15:54:36.392 - Client closed connection
+1:M 29 Jun 2021 15:54:36.395 - Client closed connection
+1:M 29 Jun 2021 15:54:36.397 - Client closed connection
+1:M 29 Jun 2021 15:54:55.022 - Accepted 172.20.0.1:57052
+1:M 29 Jun 2021 15:54:55.026 - Accepted 172.20.0.1:57060
+1:M 29 Jun 2021 15:54:55.028 - Accepted 172.20.0.1:57062
+1:M 29 Jun 2021 15:54:55.030 - Accepted 172.20.0.1:57072
+1:M 29 Jun 2021 15:54:55.032 - Accepted 172.20.0.1:57074
+1:M 29 Jun 2021 15:54:55.037 - Client closed connection
+1:M 29 Jun 2021 15:59:55.033 - Client closed connection
+1:M 29 Jun 2021 15:59:55.041 - Client closed connection
+1:M 29 Jun 2021 15:59:55.046 - Client closed connection
+1:M 29 Jun 2021 15:59:55.050 - Client closed connection
+1:M 29 Jun 2021 15:59:55.054 - Accepted 172.20.0.1:57110
+1:M 29 Jun 2021 15:59:55.057 - Accepted 172.20.0.1:57112
+1:M 29 Jun 2021 15:59:55.061 - Accepted 172.20.0.1:57114
+1:M 29 Jun 2021 15:59:55.063 - Accepted 172.20.0.1:57116
+1:signal-handler (1624982446) Received SIGTERM scheduling shutdown...
+1:M 29 Jun 2021 16:00:46.285 # User requested shutdown...
+1:M 29 Jun 2021 16:00:46.288 * Calling fsync() on the AOF file.
+1:M 29 Jun 2021 16:00:46.293 * Saving the final RDB snapshot before exiting.
+1:M 29 Jun 2021 16:00:46.324 * DB saved on disk
+1:M 29 Jun 2021 16:00:46.329 * Removing the pid file.
+1:M 29 Jun 2021 16:00:46.333 # Redis is now ready to exit, bye bye...
+1:C 29 Jun 2021 16:00:54.476 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 29 Jun 2021 16:00:54.480 # Redis version=6.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 29 Jun 2021 16:00:54.482 # Configuration loaded
+1:M 29 Jun 2021 16:00:54.487 * monotonic clock: POSIX clock_gettime
+1:M 29 Jun 2021 16:00:54.501 * Running mode=standalone, port=6379.
+1:M 29 Jun 2021 16:00:54.503 # Server initialized
+1:M 29 Jun 2021 16:00:54.516 * Ready to accept connections
+1:signal-handler (1624982648) Received SIGTERM scheduling shutdown...
+1:M 29 Jun 2021 16:04:08.458 # User requested shutdown...
+1:M 29 Jun 2021 16:04:08.460 * Calling fsync() on the AOF file.
+1:M 29 Jun 2021 16:04:08.462 * Saving the final RDB snapshot before exiting.
+1:M 29 Jun 2021 16:04:08.470 * DB saved on disk
+1:M 29 Jun 2021 16:04:08.472 * Removing the pid file.
+1:M 29 Jun 2021 16:04:08.474 # Redis is now ready to exit, bye bye...
+1:C 29 Jun 2021 16:04:16.330 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 29 Jun 2021 16:04:16.335 # Redis version=6.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 29 Jun 2021 16:04:16.336 # Configuration loaded
+1:M 29 Jun 2021 16:04:16.342 * monotonic clock: POSIX clock_gettime
+1:M 29 Jun 2021 16:04:16.355 * Running mode=standalone, port=6379.
+1:M 29 Jun 2021 16:04:16.357 # Server initialized
+1:M 29 Jun 2021 16:04:16.368 * Ready to accept connections
+1:M 29 Jun 2021 16:04:55.028 - Accepted 172.20.0.1:57218
+1:M 29 Jun 2021 16:04:55.040 - Accepted 172.20.0.1:57222
+1:M 29 Jun 2021 16:04:55.045 - Accepted 172.20.0.1:57224
+1:M 29 Jun 2021 16:04:55.050 - Accepted 172.20.0.1:57216
+1:M 29 Jun 2021 16:06:46.888 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:06:52.122 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:06:57.363 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:07:02.582 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:07:07.843 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:07:13.051 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:07:18.288 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:07:23.546 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:07:28.800 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:07:34.002 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:07:39.246 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:07:44.485 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:07:49.709 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:07:54.945 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:08:00.174 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:08:05.424 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:08:10.676 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:08:15.894 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:08:21.109 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:08:26.345 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:08:31.606 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:08:36.859 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:08:42.117 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:08:47.362 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:08:52.615 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:08:57.866 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:09:03.100 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:09:08.383 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:09:13.661 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:09:18.877 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:09:24.145 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:09:29.410 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:09:34.652 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:09:39.918 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:09:45.149 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:09:50.409 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:09:55.030 - Client closed connection
+1:M 29 Jun 2021 16:09:55.041 - Client closed connection
+1:M 29 Jun 2021 16:09:55.045 - Client closed connection
+1:M 29 Jun 2021 16:09:55.051 - Accepted 172.20.0.1:57302
+1:M 29 Jun 2021 16:09:55.056 - Accepted 172.20.0.1:57304
+1:M 29 Jun 2021 16:09:55.060 - Accepted 172.20.0.1:57306
+1:M 29 Jun 2021 16:09:55.640 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:10:00.892 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:10:06.136 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:10:11.399 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:10:16.630 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:10:21.879 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:10:27.127 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:10:32.397 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:10:37.599 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:10:42.837 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:10:48.070 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:10:53.365 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:10:58.608 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:11:03.872 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:11:09.141 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:11:14.393 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:11:19.605 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:11:24.851 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:11:30.071 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:11:35.271 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:11:40.541 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:11:45.770 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:11:50.974 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:11:55.024 - Client closed connection
+1:M 29 Jun 2021 16:11:55.033 - Accepted 172.20.0.1:57366
+1:M 29 Jun 2021 16:11:56.192 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:12:01.433 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:12:06.641 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:12:11.902 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:12:17.156 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:12:22.421 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:12:27.665 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:12:32.924 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:12:34.986 - Client closed connection
+1:M 29 Jun 2021 16:12:34.989 - Client closed connection
+1:M 29 Jun 2021 16:12:34.992 - Client closed connection
+1:M 29 Jun 2021 16:12:34.995 - Client closed connection
+1:M 29 Jun 2021 16:12:38.123 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:12:43.365 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:12:48.585 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:12:53.824 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:12:59.069 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:M 29 Jun 2021 16:13:04.326 - DB 0: 1 keys (1 volatile) in 4 slots HT.
+1:C 17 Jul 2021 13:49:26.658 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 17 Jul 2021 13:49:26.662 # Redis version=6.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 17 Jul 2021 13:49:26.665 # Configuration loaded
+1:M 17 Jul 2021 13:49:26.671 * monotonic clock: POSIX clock_gettime
+1:M 17 Jul 2021 13:49:26.687 * Running mode=standalone, port=6379.
+1:M 17 Jul 2021 13:49:26.691 # Server initialized
+1:M 17 Jul 2021 13:49:26.718 * DB loaded from append only file: 0.015 seconds
+1:M 17 Jul 2021 13:49:26.723 * Ready to accept connections
+1:M 17 Jul 2021 13:49:42.032 - Accepted 172.20.0.1:57420
+1:M 17 Jul 2021 13:49:42.037 - Accepted 172.20.0.1:57432
+1:M 17 Jul 2021 13:49:42.040 - Accepted 172.20.0.1:57434
+1:M 17 Jul 2021 13:49:42.043 - Accepted 172.20.0.1:57438
+1:M 17 Jul 2021 13:54:42.032 - Client closed connection
+1:M 17 Jul 2021 13:54:42.043 - Accepted 172.20.0.1:57454
+1:M 17 Jul 2021 13:54:42.049 - Accepted 172.20.0.1:57458
+1:M 17 Jul 2021 13:54:42.055 - Accepted 172.20.0.1:57460
+1:M 17 Jul 2021 13:54:42.059 - Accepted 172.20.0.1:57462
+1:M 17 Jul 2021 13:54:42.063 - Client closed connection
+1:M 17 Jul 2021 13:54:42.066 - Client closed connection
+1:M 17 Jul 2021 13:54:42.070 - Client closed connection
+1:M 17 Jul 2021 13:59:42.055 - Client closed connection
+1:M 17 Jul 2021 13:59:42.063 - Client closed connection
+1:M 17 Jul 2021 13:59:42.067 - Client closed connection
+1:M 17 Jul 2021 13:59:42.071 - Client closed connection
+1:M 17 Jul 2021 13:59:42.075 - Accepted 172.20.0.1:57484
+1:M 17 Jul 2021 13:59:42.077 - Accepted 172.20.0.1:57482
+1:M 17 Jul 2021 13:59:42.080 - Accepted 172.20.0.1:57480
+1:M 17 Jul 2021 13:59:42.083 - Accepted 172.20.0.1:57486
+1:M 17 Jul 2021 14:04:27.024 * 1 changes in 900 seconds. Saving...
+1:M 17 Jul 2021 14:04:27.052 * Background saving started by pid 19
+19:C 17 Jul 2021 14:04:27.069 * DB saved on disk
+19:C 17 Jul 2021 14:04:27.076 * RDB: 1 MB of memory used by copy-on-write
+1:M 17 Jul 2021 14:04:27.164 * Background saving terminated with success
+1:M 17 Jul 2021 14:04:42.030 - Client closed connection
+1:M 17 Jul 2021 14:04:42.036 - Client closed connection
+1:M 17 Jul 2021 14:04:42.046 - Client closed connection
+1:M 17 Jul 2021 14:04:42.051 - Client closed connection
+1:M 17 Jul 2021 14:04:42.055 - Accepted 172.20.0.1:57500
+1:M 17 Jul 2021 14:04:42.058 - Accepted 172.20.0.1:57502
+1:M 17 Jul 2021 14:04:42.062 - Accepted 172.20.0.1:57510
+1:M 17 Jul 2021 14:04:42.065 - Accepted 172.20.0.1:57512
+1:M 17 Jul 2021 14:09:42.035 - Client closed connection
+1:M 17 Jul 2021 14:09:42.044 - Client closed connection
+1:M 17 Jul 2021 14:09:42.047 - Client closed connection
+1:M 17 Jul 2021 14:09:42.049 - Client closed connection
+1:M 17 Jul 2021 14:09:42.055 - Accepted 172.20.0.1:57532
+1:M 17 Jul 2021 14:09:42.061 - Accepted 172.20.0.1:57536
+1:M 17 Jul 2021 14:09:42.066 - Accepted 172.20.0.1:57530
+1:M 17 Jul 2021 14:09:42.069 - Accepted 172.20.0.1:57538
+1:M 17 Jul 2021 14:14:42.760 - Client closed connection
+1:M 17 Jul 2021 14:14:42.770 - Client closed connection
+1:M 17 Jul 2021 14:14:42.778 - Client closed connection
+1:M 17 Jul 2021 14:14:42.784 - Client closed connection
+1:M 17 Jul 2021 14:14:42.789 - Accepted 172.20.0.1:57556
+1:M 17 Jul 2021 14:14:42.793 - Accepted 172.20.0.1:57558
+1:M 17 Jul 2021 14:14:42.795 - Accepted 172.20.0.1:57560
+1:M 17 Jul 2021 14:14:42.797 - Accepted 172.20.0.1:57564
+1:M 17 Jul 2021 14:17:22.692 - Accepted 172.20.0.1:57578
+1:M 17 Jul 2021 14:17:22.722 - Accepted 172.20.0.1:57582
+1:M 17 Jul 2021 14:19:42.057 - Client closed connection
+1:M 17 Jul 2021 14:19:42.065 - Client closed connection
+1:M 17 Jul 2021 14:19:42.069 - Client closed connection
+1:M 17 Jul 2021 14:19:42.074 - Client closed connection
+1:M 17 Jul 2021 14:19:42.078 - Accepted 172.20.0.1:57592
+1:M 17 Jul 2021 14:19:42.083 - Accepted 172.20.0.1:57600
+1:M 17 Jul 2021 14:19:42.087 - Accepted 172.20.0.1:57598
+1:M 17 Jul 2021 14:19:42.092 - Accepted 172.20.0.1:57606
+1:M 17 Jul 2021 14:24:42.042 - Client closed connection
+1:M 17 Jul 2021 14:24:42.048 - Client closed connection
+1:M 17 Jul 2021 14:24:42.056 - Client closed connection
+1:M 17 Jul 2021 14:24:42.061 - Client closed connection
+1:M 17 Jul 2021 14:24:42.070 - Accepted 172.20.0.1:57630
+1:M 17 Jul 2021 14:24:42.073 - Accepted 172.20.0.1:57632
+1:M 17 Jul 2021 14:24:42.076 - Accepted 172.20.0.1:57634
+1:M 17 Jul 2021 14:24:42.079 - Accepted 172.20.0.1:57636
+1:M 17 Jul 2021 14:29:42.022 - Accepted 172.20.0.1:57642
+1:M 17 Jul 2021 14:29:42.028 - Accepted 172.20.0.1:57652
+1:M 17 Jul 2021 14:29:42.032 - Accepted 172.20.0.1:57658
+1:M 17 Jul 2021 14:29:42.035 - Accepted 172.20.0.1:57660
+1:M 17 Jul 2021 14:29:42.038 - Client closed connection
+1:M 17 Jul 2021 14:29:42.040 - Client closed connection
+1:M 17 Jul 2021 14:29:42.043 - Client closed connection
+1:M 17 Jul 2021 14:29:42.045 - Client closed connection
+1:M 17 Jul 2021 14:34:42.044 - Client closed connection
+1:M 17 Jul 2021 14:34:42.051 - Client closed connection
+1:M 17 Jul 2021 14:34:42.058 - Client closed connection
+1:M 17 Jul 2021 14:34:42.063 - Client closed connection
+1:M 17 Jul 2021 14:34:42.067 - Accepted 172.20.0.1:57680
+1:M 17 Jul 2021 14:34:42.070 - Accepted 172.20.0.1:57682
+1:M 17 Jul 2021 14:34:42.074 - Accepted 172.20.0.1:57678
+1:M 17 Jul 2021 14:34:42.077 - Accepted 172.20.0.1:57684
+1:M 17 Jul 2021 14:39:42.032 - Client closed connection
+1:M 17 Jul 2021 14:39:42.039 - Client closed connection
+1:M 17 Jul 2021 14:39:42.046 - Client closed connection
+1:M 17 Jul 2021 14:39:42.051 - Client closed connection
+1:M 17 Jul 2021 14:39:42.054 - Accepted 172.20.0.1:57702
+1:M 17 Jul 2021 14:39:42.058 - Accepted 172.20.0.1:57704
+1:M 17 Jul 2021 14:39:42.061 - Accepted 172.20.0.1:57706
+1:M 17 Jul 2021 14:39:42.063 - Accepted 172.20.0.1:57710
+1:M 17 Jul 2021 14:44:42.034 - Client closed connection
+1:M 17 Jul 2021 14:44:42.047 - Client closed connection
+1:M 17 Jul 2021 14:44:42.053 - Client closed connection
+1:M 17 Jul 2021 14:44:42.058 - Client closed connection
+1:M 17 Jul 2021 14:44:42.062 - Accepted 172.20.0.1:57728
+1:M 17 Jul 2021 14:44:42.067 - Accepted 172.20.0.1:57730
+1:M 17 Jul 2021 14:44:42.072 - Accepted 172.20.0.1:57732
+1:M 17 Jul 2021 14:44:42.076 - Accepted 172.20.0.1:57734
+1:M 17 Jul 2021 14:49:42.044 - Client closed connection
+1:M 17 Jul 2021 14:49:42.052 - Client closed connection
+1:M 17 Jul 2021 14:49:42.061 - Client closed connection
+1:M 17 Jul 2021 14:49:42.066 - Client closed connection
+1:M 17 Jul 2021 14:49:42.073 - Accepted 172.20.0.1:57754
+1:M 17 Jul 2021 14:49:42.078 - Accepted 172.20.0.1:57758
+1:M 17 Jul 2021 14:49:42.084 - Accepted 172.20.0.1:57756
+1:M 17 Jul 2021 14:49:42.087 - Accepted 172.20.0.1:57760
+1:M 17 Jul 2021 14:54:42.044 - Client closed connection
+1:M 17 Jul 2021 14:54:42.052 - Client closed connection
+1:M 17 Jul 2021 14:54:42.057 - Client closed connection
+1:M 17 Jul 2021 14:54:42.062 - Client closed connection
+1:M 17 Jul 2021 14:54:42.066 - Accepted 172.20.0.1:57778
+1:M 17 Jul 2021 14:54:42.070 - Accepted 172.20.0.1:57780
+1:M 17 Jul 2021 14:54:42.074 - Accepted 172.20.0.1:57784
+1:M 17 Jul 2021 14:54:42.077 - Accepted 172.20.0.1:57786
+1:M 17 Jul 2021 15:15:34.723 - Client closed connection
+1:M 17 Jul 2021 15:15:34.731 - Client closed connection
+1:M 17 Jul 2021 15:15:34.736 - Client closed connection
+1:M 17 Jul 2021 15:15:34.740 - Client closed connection
+1:M 17 Jul 2021 15:15:34.743 - Accepted 172.20.0.1:57802
+1:M 17 Jul 2021 15:15:34.748 - Accepted 172.20.0.1:57804
+1:M 17 Jul 2021 15:15:34.753 - Accepted 172.20.0.1:57806
+1:M 17 Jul 2021 15:15:34.755 - Accepted 172.20.0.1:57810
+1:M 17 Jul 2021 15:23:58.412 - Client closed connection
+1:M 17 Jul 2021 15:23:58.421 - Client closed connection
+1:M 17 Jul 2021 15:24:01.226 - Client closed connection
+1:M 17 Jul 2021 15:24:01.236 - Client closed connection
+1:M 17 Jul 2021 15:24:01.242 - Client closed connection
+1:M 17 Jul 2021 15:24:01.247 - Client closed connection
+1:M 17 Jul 2021 15:24:01.252 - Accepted 172.20.0.1:57828
+1:M 17 Jul 2021 15:24:01.256 - Accepted 172.20.0.1:57830
+1:M 17 Jul 2021 15:24:01.260 - Accepted 172.20.0.1:57832
+1:M 17 Jul 2021 15:24:01.263 - Accepted 172.20.0.1:57834
+1:C 18 Jul 2021 02:43:37.097 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 18 Jul 2021 02:43:37.102 # Redis version=6.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 18 Jul 2021 02:43:37.104 # Configuration loaded
+1:M 18 Jul 2021 02:43:37.110 * monotonic clock: POSIX clock_gettime
+1:M 18 Jul 2021 02:43:37.125 * Running mode=standalone, port=6379.
+1:M 18 Jul 2021 02:43:37.127 # Server initialized
+1:M 18 Jul 2021 02:43:37.153 * DB loaded from append only file: 0.013 seconds
+1:M 18 Jul 2021 02:43:37.156 * Ready to accept connections
+1:M 18 Jul 2021 02:43:49.144 - Accepted 172.20.0.1:58002
+1:M 18 Jul 2021 02:43:49.157 - Accepted 172.20.0.1:58012
+1:M 18 Jul 2021 02:43:49.160 - Accepted 172.20.0.1:58016
+1:M 18 Jul 2021 02:43:49.162 - Accepted 172.20.0.1:58022
+1:M 18 Jul 2021 02:43:49.164 - Accepted 172.20.0.1:58026
+1:M 18 Jul 2021 02:43:49.179 - Client closed connection
+1:M 18 Jul 2021 02:48:49.166 - Client closed connection
+1:M 18 Jul 2021 02:48:49.173 - Client closed connection
+1:M 18 Jul 2021 02:48:49.179 - Client closed connection
+1:M 18 Jul 2021 02:48:49.183 - Client closed connection
+1:M 18 Jul 2021 02:48:49.186 - Accepted 172.20.0.1:58050
+1:M 18 Jul 2021 02:48:49.189 - Accepted 172.20.0.1:58052
+1:M 18 Jul 2021 02:48:49.192 - Accepted 172.20.0.1:58054
+1:M 18 Jul 2021 02:48:49.195 - Accepted 172.20.0.1:58056
+1:M 18 Jul 2021 02:53:49.153 - Client closed connection
+1:M 18 Jul 2021 02:53:49.160 - Client closed connection
+1:M 18 Jul 2021 02:53:49.169 - Client closed connection
+1:M 18 Jul 2021 02:53:49.173 - Client closed connection
+1:M 18 Jul 2021 02:53:49.178 - Accepted 172.20.0.1:58076
+1:M 18 Jul 2021 02:53:49.181 - Accepted 172.20.0.1:58074
+1:M 18 Jul 2021 02:53:49.184 - Accepted 172.20.0.1:58078
+1:M 18 Jul 2021 02:53:49.187 - Accepted 172.20.0.1:58080
+1:M 18 Jul 2021 02:58:38.038 * 1 changes in 900 seconds. Saving...
+1:M 18 Jul 2021 02:58:38.080 * Background saving started by pid 17
+17:C 18 Jul 2021 02:58:38.103 * DB saved on disk
+17:C 18 Jul 2021 02:58:38.112 * RDB: 1 MB of memory used by copy-on-write
+1:M 18 Jul 2021 02:58:38.191 * Background saving terminated with success
+1:M 18 Jul 2021 02:58:49.145 - Client closed connection
+1:M 18 Jul 2021 02:58:49.153 - Accepted 172.20.0.1:58088
+1:M 18 Jul 2021 02:58:49.161 - Accepted 172.20.0.1:58098
+1:M 18 Jul 2021 02:58:49.167 - Accepted 172.20.0.1:58100
+1:M 18 Jul 2021 02:58:49.172 - Accepted 172.20.0.1:58104
+1:M 18 Jul 2021 02:58:49.176 - Client closed connection
+1:M 18 Jul 2021 02:58:49.180 - Client closed connection
+1:M 18 Jul 2021 02:58:49.184 - Client closed connection
+1:M 18 Jul 2021 03:03:49.168 - Client closed connection
+1:M 18 Jul 2021 03:03:49.176 - Client closed connection
+1:M 18 Jul 2021 03:03:49.182 - Client closed connection
+1:M 18 Jul 2021 03:03:49.186 - Client closed connection
+1:M 18 Jul 2021 03:03:49.190 - Accepted 172.20.0.1:58122
+1:M 18 Jul 2021 03:03:49.193 - Accepted 172.20.0.1:58124
+1:M 18 Jul 2021 03:03:49.197 - Accepted 172.20.0.1:58126
+1:M 18 Jul 2021 03:03:49.200 - Accepted 172.20.0.1:58128
+1:M 18 Jul 2021 03:08:49.140 - Client closed connection
+1:M 18 Jul 2021 03:08:49.155 - Client closed connection
+1:M 18 Jul 2021 03:08:49.162 - Client closed connection
+1:M 18 Jul 2021 03:08:49.168 - Accepted 172.20.0.1:58146
+1:M 18 Jul 2021 03:08:49.172 - Accepted 172.20.0.1:58148
+1:M 18 Jul 2021 03:08:49.177 - Accepted 172.20.0.1:58150
+1:M 18 Jul 2021 03:08:49.181 - Accepted 172.20.0.1:58154
+1:M 18 Jul 2021 03:08:49.185 - Client closed connection
+1:M 18 Jul 2021 03:13:51.169 - Client closed connection
+1:M 18 Jul 2021 03:13:51.181 - Client closed connection
+1:M 18 Jul 2021 03:13:51.189 - Client closed connection
+1:M 18 Jul 2021 03:13:51.195 - Accepted 172.20.0.1:58166
+1:M 18 Jul 2021 03:13:51.200 - Accepted 172.20.0.1:58174
+1:M 18 Jul 2021 03:13:51.206 - Accepted 172.20.0.1:58176
+1:M 18 Jul 2021 03:13:51.210 - Accepted 172.20.0.1:58178
+1:M 18 Jul 2021 03:13:51.214 - Client closed connection
+1:M 18 Jul 2021 03:19:49.151 - Client closed connection
+1:M 18 Jul 2021 03:19:49.159 - Client closed connection
+1:M 18 Jul 2021 03:19:49.166 - Client closed connection
+1:M 18 Jul 2021 03:19:49.170 - Client closed connection
+1:M 18 Jul 2021 03:19:49.179 - Accepted 172.20.0.1:58196
+1:M 18 Jul 2021 03:19:49.182 - Accepted 172.20.0.1:58198
+1:M 18 Jul 2021 03:19:49.186 - Accepted 172.20.0.1:58200
+1:M 18 Jul 2021 03:19:49.188 - Accepted 172.20.0.1:58202
+1:M 18 Jul 2021 03:24:49.153 - Client closed connection
+1:M 18 Jul 2021 03:24:49.164 - Accepted 172.20.0.1:58214
+1:M 18 Jul 2021 03:24:49.170 - Accepted 172.20.0.1:58222
+1:M 18 Jul 2021 03:24:49.175 - Accepted 172.20.0.1:58224
+1:M 18 Jul 2021 03:24:49.179 - Accepted 172.20.0.1:58226
+1:M 18 Jul 2021 03:24:49.182 - Client closed connection
+1:M 18 Jul 2021 03:24:49.186 - Client closed connection
+1:M 18 Jul 2021 03:24:49.189 - Client closed connection
+1:M 18 Jul 2021 03:29:49.139 - Client closed connection
+1:M 18 Jul 2021 03:29:49.151 - Client closed connection
+1:M 18 Jul 2021 03:29:49.159 - Client closed connection
+1:M 18 Jul 2021 03:29:49.166 - Accepted 172.20.0.1:58242
+1:M 18 Jul 2021 03:29:49.171 - Accepted 172.20.0.1:58244
+1:M 18 Jul 2021 03:29:49.175 - Accepted 172.20.0.1:58248
+1:M 18 Jul 2021 03:29:49.180 - Accepted 172.20.0.1:58252
+1:M 18 Jul 2021 03:29:49.184 - Client closed connection
+1:M 18 Jul 2021 03:34:49.152 - Client closed connection
+1:M 18 Jul 2021 03:34:49.159 - Client closed connection
+1:M 18 Jul 2021 03:34:49.163 - Client closed connection
+1:M 18 Jul 2021 03:34:49.168 - Client closed connection
+1:M 18 Jul 2021 03:34:49.173 - Accepted 172.20.0.1:58272
+1:M 18 Jul 2021 03:34:49.179 - Accepted 172.20.0.1:58274
+1:M 18 Jul 2021 03:34:49.183 - Accepted 172.20.0.1:58276
+1:M 18 Jul 2021 03:34:49.186 - Accepted 172.20.0.1:58278
+1:M 18 Jul 2021 03:39:49.144 - Client closed connection
+1:M 18 Jul 2021 03:39:49.159 - Client closed connection
+1:M 18 Jul 2021 03:39:49.165 - Accepted 172.20.0.1:58294
+1:M 18 Jul 2021 03:39:49.170 - Accepted 172.20.0.1:58296
+1:M 18 Jul 2021 03:39:49.175 - Accepted 172.20.0.1:58298
+1:M 18 Jul 2021 03:39:49.179 - Accepted 172.20.0.1:58304
+1:M 18 Jul 2021 03:39:49.184 - Client closed connection
+1:M 18 Jul 2021 03:39:49.187 - Client closed connection
+1:M 18 Jul 2021 03:44:49.146 - Client closed connection
+1:M 18 Jul 2021 03:44:49.159 - Accepted 172.20.0.1:58314
+1:M 18 Jul 2021 03:44:49.167 - Accepted 172.20.0.1:58320
+1:M 18 Jul 2021 03:44:49.173 - Accepted 172.20.0.1:58326
+1:M 18 Jul 2021 03:44:49.177 - Accepted 172.20.0.1:58328
+1:M 18 Jul 2021 03:44:49.182 - Client closed connection
+1:M 18 Jul 2021 03:44:49.185 - Client closed connection
+1:M 18 Jul 2021 03:44:49.189 - Client closed connection
+1:M 18 Jul 2021 03:49:49.144 - Client closed connection
+1:M 18 Jul 2021 03:49:49.155 - Client closed connection
+1:M 18 Jul 2021 03:49:49.162 - Client closed connection
+1:M 18 Jul 2021 03:49:49.166 - Client closed connection
+1:M 18 Jul 2021 03:49:49.170 - Accepted 172.20.0.1:58346
+1:M 18 Jul 2021 03:49:49.175 - Accepted 172.20.0.1:58348
+1:M 18 Jul 2021 03:49:49.179 - Accepted 172.20.0.1:58350
+1:M 18 Jul 2021 03:49:49.182 - Accepted 172.20.0.1:58352
+1:M 18 Jul 2021 03:54:49.141 - Client closed connection
+1:M 18 Jul 2021 03:54:49.149 - Client closed connection
+1:M 18 Jul 2021 03:54:49.159 - Client closed connection
+1:M 18 Jul 2021 03:54:49.164 - Client closed connection
+1:M 18 Jul 2021 03:54:49.174 - Accepted 172.20.0.1:58370
+1:M 18 Jul 2021 03:54:49.179 - Accepted 172.20.0.1:58372
+1:M 18 Jul 2021 03:54:49.183 - Accepted 172.20.0.1:58374
+1:M 18 Jul 2021 03:54:49.186 - Accepted 172.20.0.1:58376
+1:M 18 Jul 2021 03:59:49.139 - Client closed connection
+1:M 18 Jul 2021 03:59:49.144 - Client closed connection
+1:M 18 Jul 2021 03:59:49.148 - Client closed connection
+1:M 18 Jul 2021 03:59:49.151 - Client closed connection
+1:M 18 Jul 2021 03:59:49.155 - Accepted 172.20.0.1:58394
+1:M 18 Jul 2021 03:59:49.158 - Accepted 172.20.0.1:58396
+1:M 18 Jul 2021 03:59:49.161 - Accepted 172.20.0.1:58398
+1:M 18 Jul 2021 03:59:49.164 - Accepted 172.20.0.1:58400
+1:M 18 Jul 2021 04:04:49.148 - Client closed connection
+1:M 18 Jul 2021 04:04:49.159 - Client closed connection
+1:M 18 Jul 2021 04:04:49.166 - Client closed connection
+1:M 18 Jul 2021 04:04:49.170 - Client closed connection
+1:M 18 Jul 2021 04:04:49.177 - Accepted 172.20.0.1:58416
+1:M 18 Jul 2021 04:04:49.181 - Accepted 172.20.0.1:58420
+1:M 18 Jul 2021 04:04:49.184 - Accepted 172.20.0.1:58422
+1:M 18 Jul 2021 04:04:49.188 - Accepted 172.20.0.1:58426
+1:M 18 Jul 2021 04:09:49.144 - Client closed connection
+1:M 18 Jul 2021 04:09:49.157 - Client closed connection
+1:M 18 Jul 2021 04:09:49.163 - Client closed connection
+1:M 18 Jul 2021 04:09:49.167 - Client closed connection
+1:M 18 Jul 2021 04:09:49.173 - Accepted 172.20.0.1:58444
+1:M 18 Jul 2021 04:09:49.177 - Accepted 172.20.0.1:58446
+1:M 18 Jul 2021 04:09:49.181 - Accepted 172.20.0.1:58448
+1:M 18 Jul 2021 04:09:49.185 - Accepted 172.20.0.1:58450
+1:M 18 Jul 2021 04:14:49.154 - Client closed connection
+1:M 18 Jul 2021 04:14:49.161 - Client closed connection
+1:M 18 Jul 2021 04:14:49.167 - Client closed connection
+1:M 18 Jul 2021 04:14:49.174 - Client closed connection
+1:M 18 Jul 2021 04:14:49.179 - Accepted 172.20.0.1:58474
+1:M 18 Jul 2021 04:14:49.184 - Accepted 172.20.0.1:58476
+1:M 18 Jul 2021 04:14:49.188 - Accepted 172.20.0.1:58480
+1:M 18 Jul 2021 04:14:49.192 - Accepted 172.20.0.1:58478
+1:M 18 Jul 2021 04:22:21.692 - Client closed connection
+1:M 18 Jul 2021 04:22:21.707 - Accepted 172.20.0.1:58486
+1:M 18 Jul 2021 04:22:21.713 - Accepted 172.20.0.1:58504
+1:M 18 Jul 2021 04:22:21.719 - Accepted 172.20.0.1:58502
+1:M 18 Jul 2021 04:22:21.723 - Accepted 172.20.0.1:58506
+1:M 18 Jul 2021 04:22:21.728 - Client closed connection
+1:M 18 Jul 2021 04:22:21.731 - Client closed connection
+1:M 18 Jul 2021 04:22:21.734 - Client closed connection
+1:M 18 Jul 2021 04:52:28.829 - Client closed connection
+1:M 18 Jul 2021 04:52:28.838 - Client closed connection
+1:M 18 Jul 2021 04:52:28.846 - Client closed connection
+1:M 18 Jul 2021 04:52:28.851 - Client closed connection
+1:M 18 Jul 2021 04:52:28.856 - Accepted 172.20.0.1:58524
+1:M 18 Jul 2021 04:52:28.859 - Accepted 172.20.0.1:58526
+1:M 18 Jul 2021 04:52:28.863 - Accepted 172.20.0.1:58528
+1:M 18 Jul 2021 04:52:28.866 - Accepted 172.20.0.1:58530
+1:M 18 Jul 2021 04:59:51.905 - Client closed connection
+1:M 18 Jul 2021 04:59:51.911 - Client closed connection
+1:M 18 Jul 2021 04:59:51.916 - Client closed connection
+1:M 18 Jul 2021 04:59:51.921 - Client closed connection
+1:M 18 Jul 2021 04:59:51.926 - Accepted 172.20.0.1:58548
+1:M 18 Jul 2021 04:59:51.930 - Accepted 172.20.0.1:58550
+1:M 18 Jul 2021 04:59:51.934 - Accepted 172.20.0.1:58554
+1:M 18 Jul 2021 04:59:51.938 - Accepted 172.20.0.1:58556
+1:M 18 Jul 2021 05:05:00.017 - Client closed connection
+1:M 18 Jul 2021 05:05:00.027 - Client closed connection
+1:M 18 Jul 2021 05:05:00.034 - Client closed connection
+1:M 18 Jul 2021 05:05:00.039 - Client closed connection
+1:M 18 Jul 2021 05:05:49.149 - Accepted 172.20.0.1:58568
+1:M 18 Jul 2021 05:05:49.157 - Accepted 172.20.0.1:58574
+1:M 18 Jul 2021 05:05:49.163 - Accepted 172.20.0.1:58576
+1:M 18 Jul 2021 05:05:49.168 - Accepted 172.20.0.1:58580
+1:M 18 Jul 2021 05:11:44.974 - Client closed connection
+1:M 18 Jul 2021 05:11:44.980 - Client closed connection
+1:M 18 Jul 2021 05:11:44.986 - Client closed connection
+1:M 18 Jul 2021 05:11:44.991 - Client closed connection
+1:M 18 Jul 2021 05:11:44.997 - Accepted 172.20.0.1:58594
+1:M 18 Jul 2021 05:11:45.000 - Accepted 172.20.0.1:58596
+1:M 18 Jul 2021 05:11:45.005 - Accepted 172.20.0.1:58600
+1:M 18 Jul 2021 05:11:45.009 - Accepted 172.20.0.1:58604
+1:M 18 Jul 2021 05:28:54.520 - Client closed connection
+1:M 18 Jul 2021 05:28:54.531 - Client closed connection
+1:M 18 Jul 2021 05:28:54.537 - Client closed connection
+1:M 18 Jul 2021 05:28:54.541 - Client closed connection
+1:M 18 Jul 2021 05:28:54.546 - Accepted 172.20.0.1:58618
+1:M 18 Jul 2021 05:28:54.550 - Accepted 172.20.0.1:58620
+1:M 18 Jul 2021 05:28:54.554 - Accepted 172.20.0.1:58622
+1:M 18 Jul 2021 05:28:54.557 - Accepted 172.20.0.1:58628
+1:M 18 Jul 2021 05:34:15.248 - Client closed connection
+1:M 18 Jul 2021 05:34:15.253 - Client closed connection
+1:M 18 Jul 2021 05:34:15.258 - Client closed connection
+1:M 18 Jul 2021 05:34:15.262 - Client closed connection
+1:M 18 Jul 2021 05:34:49.158 - Accepted 172.20.0.1:58646
+1:M 18 Jul 2021 05:34:49.166 - Accepted 172.20.0.1:58652
+1:M 18 Jul 2021 05:34:49.172 - Accepted 172.20.0.1:58648
+1:M 18 Jul 2021 05:34:49.178 - Accepted 172.20.0.1:58654
+1:M 18 Jul 2021 05:39:49.139 - Client closed connection
+1:M 18 Jul 2021 05:39:49.149 - Client closed connection
+1:M 18 Jul 2021 05:39:49.161 - Client closed connection
+1:M 18 Jul 2021 05:39:49.168 - Client closed connection
+1:M 18 Jul 2021 05:39:49.177 - Accepted 172.20.0.1:58668
+1:M 18 Jul 2021 05:39:49.181 - Accepted 172.20.0.1:58670
+1:M 18 Jul 2021 05:39:49.185 - Accepted 172.20.0.1:58676
+1:M 18 Jul 2021 05:39:49.188 - Accepted 172.20.0.1:58678
+1:M 18 Jul 2021 05:44:49.141 - Accepted 172.20.0.1:58694
+1:M 18 Jul 2021 05:44:49.149 - Accepted 172.20.0.1:58698
+1:M 18 Jul 2021 05:44:49.154 - Accepted 172.20.0.1:58700
+1:M 18 Jul 2021 05:44:49.160 - Accepted 172.20.0.1:58702
+1:M 18 Jul 2021 05:49:49.151 - Client closed connection
+1:M 18 Jul 2021 05:49:49.157 - Client closed connection
+1:M 18 Jul 2021 05:49:49.161 - Accepted 172.20.0.1:58720
+1:M 18 Jul 2021 05:49:49.165 - Accepted 172.20.0.1:58722
+1:M 18 Jul 2021 05:49:49.168 - Accepted 172.20.0.1:58724
+1:M 18 Jul 2021 05:49:49.172 - Accepted 172.20.0.1:58726
+1:M 18 Jul 2021 05:49:49.175 - Client closed connection
+1:M 18 Jul 2021 05:49:49.179 - Client closed connection
+1:M 18 Jul 2021 05:57:32.176 - Client closed connection
+1:M 18 Jul 2021 05:57:32.179 - Client closed connection
+1:M 18 Jul 2021 05:57:32.182 - Client closed connection
+1:M 18 Jul 2021 05:57:32.184 - Client closed connection
+1:M 18 Jul 2021 05:57:32.187 - Accepted 172.20.0.1:58746
+1:M 18 Jul 2021 05:57:32.189 - Accepted 172.20.0.1:58744
+1:M 18 Jul 2021 05:57:32.191 - Accepted 172.20.0.1:58748
+1:M 18 Jul 2021 05:57:32.193 - Accepted 172.20.0.1:58750
+1:M 18 Jul 2021 07:30:55.842 - Client closed connection
+1:M 18 Jul 2021 07:30:55.854 - Client closed connection
+1:M 18 Jul 2021 07:30:55.863 - Client closed connection
+1:M 18 Jul 2021 07:30:55.868 - Client closed connection
+1:M 18 Jul 2021 07:30:55.873 - Accepted 172.20.0.1:58764
+1:M 18 Jul 2021 07:30:55.877 - Accepted 172.20.0.1:58766
+1:M 18 Jul 2021 07:30:55.880 - Accepted 172.20.0.1:58768
+1:M 18 Jul 2021 07:30:55.883 - Accepted 172.20.0.1:58774
+1:M 18 Jul 2021 08:07:23.683 - Accepted 172.20.0.1:58902
+1:M 18 Jul 2021 08:07:23.689 - Client closed connection
+1:M 18 Jul 2021 08:29:21.094 - Client closed connection
+1:M 18 Jul 2021 08:29:22.091 - Client closed connection
+1:M 18 Jul 2021 08:29:22.100 - Client closed connection
+1:M 18 Jul 2021 08:29:22.106 - Client closed connection
+1:C 21 Jul 2021 12:18:02.641 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 21 Jul 2021 12:18:02.646 # Redis version=6.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 21 Jul 2021 12:18:02.648 # Configuration loaded
+1:M 21 Jul 2021 12:18:02.654 * monotonic clock: POSIX clock_gettime
+1:M 21 Jul 2021 12:18:02.670 * Running mode=standalone, port=6379.
+1:M 21 Jul 2021 12:18:02.673 # Server initialized
+1:M 21 Jul 2021 12:18:02.696 * DB loaded from append only file: 0.012 seconds
+1:M 21 Jul 2021 12:18:02.698 * Ready to accept connections
+1:M 21 Jul 2021 12:35:12.825 * 1 changes in 900 seconds. Saving...
+1:M 21 Jul 2021 12:35:12.840 * Background saving started by pid 17
+17:C 21 Jul 2021 12:35:12.858 * DB saved on disk
+17:C 21 Jul 2021 12:35:12.868 * RDB: 1 MB of memory used by copy-on-write
+1:M 21 Jul 2021 12:35:12.948 * Background saving terminated with success
+1:C 22 Jul 2021 14:02:47.261 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 22 Jul 2021 14:02:47.264 # Redis version=6.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 22 Jul 2021 14:02:47.266 # Configuration loaded
+1:M 22 Jul 2021 14:02:47.271 * monotonic clock: POSIX clock_gettime
+1:M 22 Jul 2021 14:02:47.285 * Running mode=standalone, port=6379.
+1:M 22 Jul 2021 14:02:47.288 # Server initialized
+1:M 22 Jul 2021 14:02:47.311 * DB loaded from append only file: 0.012 seconds
+1:M 22 Jul 2021 14:02:47.314 * Ready to accept connections
+1:M 22 Jul 2021 14:36:59.569 * 1 changes in 900 seconds. Saving...
+1:M 22 Jul 2021 14:36:59.576 * Background saving started by pid 18
+18:C 22 Jul 2021 14:36:59.585 * DB saved on disk
+18:C 22 Jul 2021 14:36:59.589 * RDB: 1 MB of memory used by copy-on-write
+1:M 22 Jul 2021 14:36:59.679 * Background saving terminated with success
+1:signal-handler (1626966265) Received SIGTERM scheduling shutdown...
+1:M 22 Jul 2021 15:04:25.350 # User requested shutdown...
+1:M 22 Jul 2021 15:04:25.353 * Calling fsync() on the AOF file.
+1:M 22 Jul 2021 15:04:25.355 * Saving the final RDB snapshot before exiting.
+1:M 22 Jul 2021 15:04:25.363 * DB saved on disk
+1:M 22 Jul 2021 15:04:25.366 * Removing the pid file.
+1:M 22 Jul 2021 15:04:25.368 # Redis is now ready to exit, bye bye...
+1:C 22 Jul 2021 15:04:36.378 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+1:C 22 Jul 2021 15:04:36.380 # Redis version=6.2.4, bits=64, commit=00000000, modified=0, pid=1, just started
+1:C 22 Jul 2021 15:04:36.382 # Configuration loaded
+1:M 22 Jul 2021 15:04:36.388 * monotonic clock: POSIX clock_gettime
+1:M 22 Jul 2021 15:04:36.402 * Running mode=standalone, port=6379.
+1:M 22 Jul 2021 15:04:36.404 # Server initialized
+1:M 22 Jul 2021 15:04:36.425 * DB loaded from append only file: 0.010 seconds
+1:M 22 Jul 2021 15:04:36.428 * Ready to accept connections

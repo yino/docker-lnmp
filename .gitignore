@@ -17,3 +17,4 @@ php/log/*
 
 redis/data/*
 redis/logs/*
+nginx/sites-available

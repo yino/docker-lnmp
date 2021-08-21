@@ -20,4 +20,5 @@ services:
       - TZ=Asia/Shanghai
     ports:
       - 80:80
+      - 3306:3306
     container_name: lnmp  

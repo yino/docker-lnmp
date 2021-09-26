@@ -11,7 +11,7 @@ RUN apt-get install -y mysql-server
 
 RUN apt-get install -y nginx
 
-RUN apt-get install -y php
+RUN apt-get install -y php7.2
 
 RUN apt-get install -y php-mysqli
 

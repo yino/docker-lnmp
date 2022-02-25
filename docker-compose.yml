@@ -9,64 +9,24 @@ services:
             - "443:443"
         environment:
            - TZ=Asia/Shanghai
-        depends_on:
-           - "php"
         volumes:
            - "./conf.d:/etc/nginx/conf.d"
            - "./www:/usr/share/nginx/html"
            - "./log:/var/log/nginx"
         networks:
            - net-app
-    php:
-        # docker-php-ext-install pdo pdo_mysql 扩展安装
-        image: php:7.3-fpm
-        container_name: "compose-php"
-        restart: always
-        cap_add:
-            - SYS_PTRACE        
-        ports:
-            - "9000:9000"
-        environment:
-            - TZ=Asia/Shanghai
-        volumes:
-            - "./www:/usr/share/nginx/html"
-            - "./php/conf:/usr/local/etc"
-            # - "./php/log/:/proc/self/fd" log 暂未配置
-        # command: /bin/bash -c "mkdir -p /usr/local/var/log/php-fpm && touch /usr/local/var/log/php-fpm/php-fpm.log && touch /usr/local/var/log/php-fpm/fpm-php.www.log"
-        networks:
-           - net-app
-        command: 
-            - docker-php-ext-install mysqli pdo pdo_mysql
-    mysql:
-        image: mysql:5.7
-        container_name: "compose-mysql"
-        restart: always
-        command: --default-authentication-plugin=mysql_native_password
-        ports:
-            - "3306:3306"
-        volumes:
-            - "./mysql/data:/var/lib/mysql"
-            - "./mysql/logs:/var/log/mysql"
-            - "./mysql/conf:/etc/mysql/conf.d"
-        environment:
-            - TZ=Asia/Shanghai
-            - MYSQL_ROOT_PASSWORD=root
-            - MYSQL_USER=latelee
-            - MYSQL_PASSWORD=123456
-        networks:
-            - net-app
     redis:
-        image: redis
-        container_name: "compose-redis"
-        restart: always
-        command: /bin/bash -c "redis-server /usr/local/etc/redis/redis.conf"
-        ports:
-            - "6379:6379"
-        volumes:
-            - "./redis/data:/data:rw"
-            - "./redis/logs:/logs:rw"
-            - "./redis/conf/redis.conf:/usr/local/etc/redis/redis.conf:rw"
-        networks:
-            - net-app
+      image: redis
+      container_name: "compose-redis"
+      restart: always
+      command: /bin/bash -c "redis-server /usr/local/etc/redis/redis.conf"
+      ports:
+        - "6379:6379"
+      volumes:
+        - "./redis/data:/data:rw"
+        - "./redis/logs:/logs:rw"
+        - "./redis/conf/redis.conf:/usr/local/etc/redis/redis.conf:rw"
+      networks:
+        - net-app
 networks:
-    net-app:  
+    net-app:

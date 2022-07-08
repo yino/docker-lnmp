@@ -11,7 +11,7 @@ RUN apt-get install -y mysql-server
 
 RUN apt-get install -y nginx
 
-RUN apt-get install -y php7.2
+RUN apt-get install -y php
 
 RUN apt-get install -y php-mysqli
 
@@ -20,6 +20,9 @@ RUN apt-get install -y php-fpm
 ADD ./mysql.sh /var/www/mysql.sh
 
 RUN chmod 755 /var/www/mysql.sh 
+
+RUN apt-get install -y php-xml && \ 
+    apt-get install -y php-mbstring
 
 CMD /etc/init.d/php7.4-fpm start && service mysql start && ./var/www/mysql.sh && nginx -g 'daemon off;'
 

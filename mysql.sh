@@ -1,5 +1,3 @@
-
-
 #!/bin/bash
 
 ##############################
@@ -31,17 +29,18 @@ DBNAME="mysql"
 CREATE_USER="yino"
 
 CREATE_PASS="123456"
-update_user_sql="update user set host = '%' where user = 'root' and host='localhost';update user set plugin='mysql_native_password' where user='root';flush privileges;"
+#update_user_sql="update mysql.user set host = '%' where user = 'root' and host='localhost';update mysql.user set plugin='mysql_native_password' where user='root';flush privileges;"
 #update_user_sql="GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY '123456' WITH GRANT OPTION;flush privileges;"
-create_user_sql="create user ${CREATE_USER}@'%' identified by '${CREATE_PASS}';GRANT ALL PRIVILEGES on *.* to ${CREATE_USER}};"
+#create_user_sql="create user ${CREATE_USER}@'%' identified by '${CREATE_PASS}';GRANT ALL PRIVILEGES on *.* to ${CREATE_USER}};"
+update_user_sql="ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY '123456';"
 
 ######################
 ## 修改mysql的 仅localhost登陆
-mysql -h${HOSTNAME}  -P${PORT}  -u${USERNAME} -p${PASSWORD} ${DBNAME} -e "${update_user_sql}"
+mysql -h${HOSTNAME} -P${PORT} -u${USERNAME} -p${PASSWORD} ${DBNAME} -e "${create_user_sql}"
+
+mysql -h${HOSTNAME} -P${PORT} -u${USERNAME} -p${PASSWORD} ${DBNAME} -e "${update_user_sql}"
 
 echo "mysql -h${HOSTNAME}  -P${PORT}  -u${USERNAME} -p${PASSWORD} ${DBNAME} -e \"${update_user_sql}\""
 
-mysql -h${HOSTNAME}  -P${PORT}  -u${USERNAME} -p${PASSWORD} ${DBNAME} -e "${create_user_sql}"
-
 select_user_sql="select host,user,plugin from user"
-mysql -h${HOSTNAME}  -P${PORT}  -u${USERNAME} -p${PASSWORD} ${DBNAME} -e "${select_user_sql}"
+mysql -h${HOSTNAME} -P${PORT} -u${USERNAME} -p${PASSWORD} ${DBNAME} -e "${select_user_sql}"

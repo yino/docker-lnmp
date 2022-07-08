@@ -16,7 +16,7 @@ server {
 	# Don't use them in a production server!
 	#
 	# include snippets/snakeoil.conf;
-	set $root /var/www/html/xian-train-09-25/src/public;
+	set $root /var/www/html/train-depot/public;
 	root $root;
 
 	# Add index.php to the list if you are using PHP
